@@ -1,3 +1,7 @@
+/*
+  Implement queue using array
+*/
+
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -56,9 +60,6 @@ void Queue::all(){  /// print all queue element
     for(int i=frontt;i<=rear;i++) cout << arr[i] << " ";
     cout << endl;
 }
-/*
-  Implement queue using array
-*/
 
 int main(){
     int n,value;
