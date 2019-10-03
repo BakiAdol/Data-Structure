@@ -59,7 +59,7 @@ int main()
 
     cout << "Minimum value of rnge 1 to 8 = "<< query(1,1,n,1,8) << endl;
     cout << "Minimum value of rnge 4 to 5 = "<< query(1,1,n,4,5) << endl;
-    cout << "Minimum value of rnge 3 to 7 = "<< query(1,1,n,4,5) << endl;
+    cout << "Minimum value of rnge 3 to 7 = "<< query(1,1,n,3,7) << endl;
 
     return 0;
 }
