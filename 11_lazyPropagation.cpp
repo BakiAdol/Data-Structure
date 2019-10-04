@@ -60,8 +60,8 @@ int query(int node, int start, int endd,int i, int j, int c=0)
     int right=left+1;
     int mid=(start+endd)/2;
 
-    int l = query(left,start,mid,i,j);
-    int r = query(right,mid+1,endd,i,j);
+    int l = query(left,start,mid,i,j, c+tree[node].propaValue);
+    int r = query(right,mid+1,endd,i,j, c+tree[node].propaValue);
 
     return l+r;
 }
