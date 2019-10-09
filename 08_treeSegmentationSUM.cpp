@@ -52,12 +52,6 @@ void update(int node, int s, int e, int indx, int value)
     tree[node]=tree[left]+tree[right];
 }
 
-int minimun(int node, int s, int e, int i, int j)
-{
-    
-}
-
-
 int main()
 {
     int n=8;
