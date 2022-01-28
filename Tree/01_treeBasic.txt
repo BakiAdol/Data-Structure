@@ -1,0 +1,18 @@
+ * Tree is a non-linear data structure which organized data in hirarchical structure
+ * In any tree with N node there will be maximum N-1 edges.
+ * Terminology:
+ * Root: A node is called root if it has no parent
+ * Edge: Link between two nodes is called edge
+ * Parent: A node's imediate predecessor is called parent
+ * Child: A node which is decendent of other node
+ * Siblings: Some nodes are decendent from same node
+ * Leaf: Node which has no children
+ * Internal Nodes: All nodes of a tree are called internal node except leaf node
+ * Degree: Total number of children of a node is called it's degree
+ * Level: In a tree each step from top to bottom is called as level start from 0
+ * Height of Node: Total max number of edge for a leaf to a particular node is height of a node
+ * Height of Tree: From root node to any leaf node maximum edge is a tree's height
+ * Depth of Node: Total number of edge from root node to that node
+ * Depth of Tree: Total number of edge for root node to a leaf node max edge
+ * Path: Consecutive node and edge from one node to another node
+ * Subtree: In a tree every child is a subree or it's parent node 
